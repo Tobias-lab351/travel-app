@@ -37,16 +37,19 @@ function Navbar() {
         {!nav ? (
           <HiOutlineMenuAlt4 onClick={handleNav} className="icon" />
         ) : (
-          <AiOutlineClose onClick={handleNav} className="icon text-black w-10 text-xl" />
+          <AiOutlineClose
+            onClick={handleNav}
+            className="icon text-black w-10 text-xl"
+          />
         )}
       </div>
       <div className={nav ? "mobile-menu active" : "mobile-menu"}>
         <ul className="mobile-nav">
-          <li>Home</li>
-          <li>Destinations</li>
-          <li>Travel</li>
-          <li>Book</li>
-          <li>Views</li>
+          <li className="cursor-pointer">Home</li>
+          <li className="cursor-pointer">Destinations</li>
+          <li className="cursor-pointer">Travel</li>
+          <li className="cursor-pointer">Book</li>
+          <li className="cursor-pointer">Views</li>
         </ul>
         <div className="mobile-menu-bottom">
           <div className="menu-icons">
@@ -54,11 +57,11 @@ function Navbar() {
             <button>Account</button>
           </div>
           <div className="social-icons">
-            <FaFacebook className="icon" />
-            <FaInstagram className="icon" />
-            <FaTwitter className="icon" />
-            <FaPinterest className="icon" />
-            <FaYoutube className="icon" />
+            <FaFacebook className="icon cursor-default" />
+            <FaInstagram className="icon cursor-pointer" />
+            <FaTwitter className="icon cursor-pointer" />
+            <FaPinterest className="icon cursor-pointer" />
+            <FaYoutube className="icon cursor-pointer" />
           </div>
         </div>
       </div>
