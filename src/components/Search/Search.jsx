@@ -52,6 +52,8 @@ export default function Search() {
                 <option value="1">Mombasa</option>
                 <option value="1">Naivasha</option>
                 <option value="1">Eldoret</option>
+                <option value="1">Nanyuki</option>
+                <option value="1">Diani</option>
               </select>
             </div>
             <div className="date">
