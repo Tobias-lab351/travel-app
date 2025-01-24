@@ -7,7 +7,7 @@ import keywest  from '../../assets/keywest.jpg'
 
 const Destination = () => {
   return (
-    <div className="destination">
+    <div name='destination' className="destination">
       <div className="container">
         <h1>All-Inclusive Resorts</h1>
         <h2>On the Kenyan Coastal Best Beaches.</h2>
